@@ -21,51 +21,59 @@
             <a href="#myname">Home</a>
             <a href="#abt">About Me</a>
             <a href="#project">Projects</a>
-            <a href="#contactme">Contact</a>
+            <a href="#contactdet">Contact</a>
         
     </nav>
- <div class="allcontent">
-    <div>
-        <h1 id="myname">Olga Nadongo</h1>
-    </div>
+     <div class="allcontent">
+        <div>
+            <h1 id="myname">Olga Nadongo</h1>
+         </div>
     
-    <div class="imgdecor">
-        <img id="brandingimage" src="../img/white laptop.jpg" alt="image showing code" > 
-    </div>
-    <div class="maincontent">
-        <h2 Id="abt">Hey, I'm Olga</h2>
+        <div class="imgdecor">
+            <img id="brandingimage" src="../img/white laptop.jpg" alt="image showing code" > 
+        </div>
+         <div class="maincontent">
+            <h2 Id="abt">Hey, <span>I'm Olga</span></h2>
         
-          <p Id="aboutme">I am a certified fullstsack developer.<br> I am in love with creating beautiful and fully functional websites. <br>I mainly focus on working with <strong><em>JavaScript,<br> React</em> and <em>Ruby</em></strong> <br> but open to learning and creating more.  
-         </p>
-    </div>
-     <div>
-        <h2 Id="project">Projects</h2>
-            <ol class="projectimages">
-              <li>QuickAid</li>
-                <!--  <img src="../img/quickaid.png">-->
+            <p Id="aboutme">I am a certified fullstsack developer.<br> I am in love with creating beautiful and fully functional websites. <br>I mainly focus on working with <strong><em>JavaScript,<br> React</em> and <em>Ruby</em></strong> <br> but open to learning and creating more.  
+            </p>
+        </div>
+        <div class="myprojects">
+            <h2 Id="project">Proj<span>ects</span></h2>
+                <div class="projectimages">
+                    <h3>feedback Form </h3>
+                        <img src="../img/feedbackform.png" width="500px" height="500px">
+                
+                     <h3>QuickAid</h3>
+                     <img src="../img/quickaid.png" width="500px" height="500px">
+                </div>
+                   
+            
               
-              <li>To-do App </li>>
-                 <!--<img src="../img/feedbackform.png">-->
-              
-            </ol>
-    </div>
-    <div class="contactme">
-        <h3>Contact Me</h3>
-
-            <form class="contactdetails">
-                <label>*Name:</label>
-                <input type="text"
-                placeholder="John Doe">
-
-                <lable>*Email</lable>
-                <input type="text" placeholder="johndoe@example.com">
-
-                <label>Your Message:</label>
-                <textarea placeholder="type text" row="8"></textarea>
-            </form>
-    </div>
+        </div>
     
-</div>
+                 <div class="contactme" id="contactdet">
+                     <h4>Contact Me</h4>
+
+                     <form class="contactdetails" id="form">
+                         <label class="lbl">*Name:</label>
+                         <input type="text"
+                          placeholder="John Doe" id="name" required>
+
+                         <label class="lbl">*Email</label>
+                         <input type="text" placeholder="johndoe@example.com" id="email" required>
+
+                <!--<label>Your Message:</label>
+                <textarea placeholder="type text" row="8"></textarea>-->
+                         <button id="btn" type="submit">Submit</button>
+                     </form>
+
+        <!-- <h4 id="submitted">Your submission was successful!!</h4>-->
+            
+              </div>
+    
+     </div>
     
 </body>
+<script src="index.js"></script>
 </html>

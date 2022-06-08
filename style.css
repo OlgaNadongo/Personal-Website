@@ -42,15 +42,14 @@ text-align: center;
     height:500px;
     width: 100%;
     border-radius: 15px; 
+    
 }
 
 li,p{
     color: antiquewhite;
     list-style-type:none;
 }
-#maincontent{
-    color: rgb(4, 4, 12);
-}
+
 .logo{
     display: flex;
     margin-right: 200px;
@@ -64,11 +63,24 @@ li,p{
 #aboutme{
       font-size: 3vh; 
 }
-.projectimages{
-      height:20px;
-      width:20px;
-      padding-top: 20px;
+span{
+    color: #e08977;
 }
+.myproject{
+    display: flex;
+    float: left;
+    
+}
+h3{
+    /*color:antiquewhite;*/
+    color: #e08977;
+}
+/*.projectimages{
+    display:flex;
+    padding-left:20px;
+}*/
+      
+
 .contactme{
      background: antiquewhite;
      color: black;
@@ -79,4 +91,17 @@ li,p{
 input{
     background: antiquewhite;
     border-radius: 5px;
+    padding:5px;
+}
+#btn{
+    border-radius: 5px;
+    background: rgb(18.25% 0% 7.95%);
+    color:antiquewhite;
+    margin-top: 10px;
+    padding: 4px;
+    font-weight: bold;
+}
+.lbl{
+    color:black;
+    font-weight: bold;
 }
